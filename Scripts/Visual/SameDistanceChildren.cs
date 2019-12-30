@@ -9,8 +9,6 @@ public class SameDistanceChildren : MonoBehaviour {
     {
         Vector3 firstElementPos = Children[0].transform.position;
         Vector3 lastElementPos = Children[Children.Length - 1].transform.position;
-
-        // dividing by Children.Length - 1 because for example: between 10 points that are 9 segments
         float XDist = (lastElementPos.x - firstElementPos.x)/(float)(Children.Length - 1);
         float YDist = (lastElementPos.y - firstElementPos.y)/(float)(Children.Length - 1);
         float ZDist = (lastElementPos.z - firstElementPos.z)/(float)(Children.Length - 1);

@@ -4,9 +4,6 @@ using UnityEngine.UI;
 using DG.Tweening;
 
 public class PlayerPortraitVisual : MonoBehaviour {
-
-    // TODO : get ID from players when game starts
-
     public GameObject Explosion;
     public CharacterAsset charAsset{ get; set;}
     [Header("Text Component References")]
@@ -17,7 +14,6 @@ public class PlayerPortraitVisual : MonoBehaviour {
     public Image HeroPowerBackgroundImage;
     public Image PortraitImage;
     public Image PortraitBackgroundImage;
-
     public void ApplyLookFromAsset()
     {
         HealthText.text = charAsset.MaxHealth.ToString();

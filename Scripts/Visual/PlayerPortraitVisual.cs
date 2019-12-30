@@ -21,7 +21,6 @@ public class PlayerPortraitVisual : MonoBehaviour {
         HeroPowerBackgroundImage.sprite = charAsset.HeroPowerBGImage;
         PortraitImage.sprite = charAsset.AvatarImage;
         PortraitBackgroundImage.sprite = charAsset.AvatarBGImage;
-
         HeroPowerBackgroundImage.color = charAsset.HeroPowerBGTint;
         PortraitBackgroundImage.color = charAsset.AvatarBGTint;
 
